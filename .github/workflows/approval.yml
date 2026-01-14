@@ -1,0 +1,8 @@
+name: Approval Demo
+on: push
+jobs:
+  approve-and-echo:
+    runs-on: ubuntu-latest
+    environment: gha-approve-test
+    steps:
+      - run: echo "承認されました！デプロイ処理を実行中..."
