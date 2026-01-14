@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     environment: gha-approve-test
     steps:
-      - run: echo "承認されました！デプロイ処理を実行中..."
+      - run: echo "Approved! Deploying..."
